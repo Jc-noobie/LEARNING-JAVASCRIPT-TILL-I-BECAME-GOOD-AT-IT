@@ -11,9 +11,16 @@ let array = [
 
 ] ;
 
-function showArray(array) {
-    
+function checkArray(array) {
+    for(let i = 0 ; i < 9 ; i++) {
+        for(let j = 0; j < 9; j++) {
+            if(array[i][j] === 0 ) {
+                return false ; 
+            }
+        }
+    }
+    return true ;   
 }
+const result = checkArray(array) ;
 
-
-console.log(array ) ;
+console.log(result) ;
