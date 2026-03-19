@@ -19,7 +19,7 @@ function checkArray(array) {
             }
         }
     }
-    return true ;   
+    return true ; 
 }
 const result = checkArray(array) ;
 
