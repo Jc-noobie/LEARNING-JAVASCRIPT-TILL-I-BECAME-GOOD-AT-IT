@@ -5,7 +5,7 @@ function hello(callback) {
 
 
 function helloAgain() {
-    console.log("what up boy") ;
+    console.log("what up Man") ;
 }
 
 hello(helloAgain) ;
