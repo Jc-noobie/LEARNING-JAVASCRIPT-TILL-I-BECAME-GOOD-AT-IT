@@ -24,3 +24,8 @@ function checkArray(array) {
 const result = checkArray(array) ;
 
 console.log(result) ;
+
+// ----------------------------------
+function sayHello() {
+    console.log('hello world')
+}
