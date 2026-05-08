@@ -14,3 +14,5 @@ function doubled( element,index,array) {
 function display(element) {
     console.log(element) ;
 }
+
+// doesnt return anything
